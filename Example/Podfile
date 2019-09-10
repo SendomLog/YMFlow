@@ -1,0 +1,11 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YMSocket_Example' do
+  pod 'YMFlow', path: '../'
+
+  target 'YMSocket_Tests' do
+    inherit! :search_paths
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - YMFlow (0.1.5)
+
+DEPENDENCIES:
+  - YMFlow (from `../`)
+
+EXTERNAL SOURCES:
+  YMFlow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YMFlow: cfa67d83258da7aa6d9509b4a002430ce757e165
+
+PODFILE CHECKSUM: d0737288a92dbc8a9dc1b6e80e49125e60bdfdf9
+
+COCOAPODS: 1.7.4
