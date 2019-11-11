@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
     基于Mars封装的Socket库。
   DESC
 
-  s.homepage         = 'https://github.com/SendomLog/YMFlow'
+  s.homepage         = 'https://github.com/yimifudaoTech/YMFlow.git'
   s.license          = { type: 'MIT', file: 'LICENSE' }
-  s.author           = { 'sunhongwei' => 'hongwei.sun@yimifudao.com' }
-  s.source           = { git: 'https://github.com/SendomLog/YMFlow.git', tag: s.version.to_s }
+  s.author           = { 'kfb' => 'kfb@yimifudao.com' }
+  s.source           = { git: 'https://github.com/yimifudaoTech/YMFlow.git', tag: s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.static_framework = true

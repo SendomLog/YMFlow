@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A4798F59C5E5E7DF5D8C4E0 /* Pods_YMSocket_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CC706FBCDD700A3E69D5C3 /* Pods_YMSocket_Example.framework */; };
+		2DB2903A23794C9600AEE388 /* YMFlow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2DB2903923794C9600AEE388 /* YMFlow.podspec */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -76,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DB2903923794C9600AEE388 /* YMFlow.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YMFlow.podspec; path = ../YMFlow.podspec; sourceTree = "<group>"; };
 		313A6191626D918A18D3A29E /* Pods-YMSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSocket_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMSocket_Example/Pods-YMSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
 		580EC1E58E5DA96EA7B7F6E9 /* Pods-YMSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSocket_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMSocket_Tests/Pods-YMSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YMSocket_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMSocket_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +195,6 @@
 		8B9D7AB921FFF4B9005ACFF0 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		9C217082BA00D3AB7C18EA7F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A05F37234398AAE7BC83EAC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CB7AABC56A7281786F022559 /* YMSocket.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YMSocket.podspec; path = ../YMSocket.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,7 +334,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CB7AABC56A7281786F022559 /* YMSocket.podspec */,
+				2DB2903923794C9600AEE388 /* YMFlow.podspec */,
 				9C217082BA00D3AB7C18EA7F /* README.md */,
 				A05F37234398AAE7BC83EAC9 /* LICENSE */,
 			);
@@ -492,6 +493,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -512,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				2DB2903A23794C9600AEE388 /* YMFlow.podspec in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
