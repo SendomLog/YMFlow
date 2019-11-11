@@ -22,9 +22,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.static_framework = true
-#  s.source_files = 'YMFlow/Classes/**/**{h,m,mm,cc}'
-  s.public_header_files = 'YMFlow/Framework/**/*.h'
-  # s.public_header_files = "YMFlow/YMFlow.framework/Headers/*.h",
+  s.public_header_files = "YMFlow/YMFlow.framework/Headers/*.h",
 
   s.ios.frameworks = 'SystemConfiguration', 'CoreTelephony', 'Foundation'
 
