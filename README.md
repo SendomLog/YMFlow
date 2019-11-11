@@ -12,4 +12,4 @@ pod 'YMFlow'
 
 ## Author
 
-CaffreySun, hongwei.sun@yimifudao.com
+kfb, kfb@yimifudao.com
