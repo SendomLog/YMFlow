@@ -27,7 +27,12 @@ typedef NS_ENUM(NSInteger, YMFLogLevel) {
 + (void)startXlogWithPath:(NSString *)logPath;
 /** 关闭日志 */
 + (void)closeXlog;
-
+/** 日志保留的最长期限 */
++ (void)setXlogMaxAliveDuration:(u_int64_t)aliveTime;
+/** 异步将缓存日志r写入文件 */
++ (void)flush;
+/** 同步将缓存日志写入文件 */
++ (void)flushSync;
 /**
  记录日志
 

@@ -10,12 +10,12 @@
 #import "YMFNetworkStatusDelegate.h"
 
 @interface YMFNetworkStatus : NSObject {
-	__unsafe_unretained id<YMFNetworkStatusDelegate> m_delNetworkStatus;
+	__weak id<YMFNetworkStatusDelegate> m_delNetworkStatus;
 }
 
 + (YMFNetworkStatus*)sharedInstance;
 
-- (void)start:(__unsafe_unretained id<YMFNetworkStatusDelegate>)delNetworkStatus;
+- (void)start:(id<YMFNetworkStatusDelegate>)delNetworkStatus;
 - (void)stop;
 - (void)ChangeReach;
 

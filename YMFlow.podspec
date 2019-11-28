@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YMFlow'
-  s.version          = '0.1.5'
+  s.version          = '0.1.8'
   s.summary          = '基于Mars封装的Socket库。'
 
   s.description      = <<-DESC
